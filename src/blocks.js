@@ -9,6 +9,9 @@ export default (editor, config = {}) => {
       type: "header",
       content: config.placeholder,
       activeOnRender: 1,
+      attributes: {
+        class: 'gjs-heading'
+      }
     },
   });
 };
